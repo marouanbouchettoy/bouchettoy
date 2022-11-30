@@ -79,6 +79,18 @@ h1 {
 	display: none;
 }
 
+.logoHome{
+	width: 180px;
+    margin-top: 30px;
+}
+
+.H1HOME{
+	font-size: 48px;
+}
+h2{
+	padding: 0 100px;
+	color: #f3eb45;
+}
 @media screen and (max-width: 800px) {
 	.nav-container {
 		position: fixed;
