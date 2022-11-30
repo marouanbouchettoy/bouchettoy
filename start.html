@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bouchettoy</title>
     <link rel="stylesheet" href="bouchettoy/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
         <div class="nav-wrapper">
@@ -25,16 +29,94 @@
                     <ul class="nav-tabs">
                         <li class="nav-tab"><a href="start.html">Start</a></li>
                         <li class="nav-tab"><a href="docs.html">Docs</a></li>
-                        <li class="nav-tab"><a href="mailto:uanemaro216@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                        <li class="nav-tab"><a href="https://github.com/marouane216"><i class="fa-brands fa-github"></i></i></a></li>
+                        <li class="nav-tab"><a href="mailto:uanemaro216@gmail.com"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        <li class="nav-tab"><a href="https://github.com/marouane216"><i
+                                    class="fa-brands fa-github"></i></i></a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-    <div class="center"> 
-        <h1>Resize window to 800px to toggle menu</h1>
-    </div> 
+    <div class="container">
+        <h1>Get started with Bouchettoy</h1>
+        <b>
+            <p>Bouchettoy is a powerful and feature-packed front-end toolkit. Create anything
+                - from prototype to
+                production
+                - in minutes.</p>
+        </b>
+        <h2 style="color: #FFFFFF;">Quick start</h2>
+        <b>
+            <p>Start by including Bouchettoy's production-ready CSS and JavaScript without any building steps.</p>
+        </b>
+        <ol>
+            <li>
+                Create a new index.html file in your project root. Include the
+                <span class="metaViewport">
+                    &lt;meta name="viewport"&gt;
+                </span>
+                tag as well for proper responsive behavior in mobile devices.
+                <main>
+                    <pre><code class="language-html"><span class="tag">&lt;!DOCTYPE</span> <span class="descTag">html</span><span class="tag">&gt;</span>
+
+<span class="tag">&lt;html</span> <span class="descTag">lang</span>=<span class="geumiTag">"</span><span class="descGeumiTag">en</span><span class="geumiTag">"</span><span class="tag">&gt;</span>
+
+<span class="tag">&lt;head&gt;</span>
+    <span class="tag">&lt;meta</span> <span class="descTag">charset</span>=<span class="geumiTag">"</span><span class="descGeumiTag">utf-8</span><span class="geumiTag">"</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;meta</span> <span class="descTag">name</span>=<span class="geumiTag">"</span><span class="descGeumiTag">viewport</span><span class="geumiTag">"</span> <span class="descTag">content</span>=<span class="geumiTag">"</span><span class="descGeumiTag">width=device-width, initial-scale=1</span><span class="geumiTag">"</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;title&gt;</span>Bouchettoy<span class="tag">&lt;/title&gt;</span>
+<span class="tag">&lt;/head&gt;</span>
+
+<span class="tag">&lt;body&gt;</span>
+    <span class="tag">&lt;h1&gt;</span>Hello, world!<span class="tag">&lt;/h1&gt;</span>
+<span class="tag">&lt;/body&gt;</span>
+
+<span class="tag">&lt;/html&gt;</span></code></pre>
+                </main>
+            </li>
+            <li>
+                <b>Include Bouchettoy’s CSS and JS.</b> Place the
+                &lt;link&gt;
+                <span class="metaViewport">
+                    &lt;link&gt;
+                </span>
+                tag in the
+                <span class="metaViewport">
+                    &lt;head&gt;
+                </span>
+                for our CSS, and the
+                <span class="metaViewport">
+                    &lt;script&gt;
+                </span>
+                tag for our JavaScript (including Popper for
+                positioning dropdowns, poppers, and tooltips) before the closing
+                <span class="metaViewport">
+                    &lt;/body&gt;.
+                </span>
+                <main>
+                    <pre><code class="language-html"><span class="tag">&lt;!DOCTYPE</span> <span class="descTag">html</span><span class="tag">&gt;</span>
+                
+<span class="tag">&lt;html</span> <span class="descTag">lang</span>=<span class="geumiTag">"</span><span class="descGeumiTag">en</span><span class="geumiTag">"</span><span class="tag">&gt;</span>
+
+<span class="tag">&lt;head&gt;</span>
+    <span class="tag">&lt;meta</span> <span class="descTag">charset</span>=<span class="geumiTag">"</span><span class="descGeumiTag">utf-8</span><span class="geumiTag">"</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;meta</span> <span class="descTag">name</span>=<span class="geumiTag">"</span><span class="descGeumiTag">viewport</span><span class="geumiTag">"</span> <span class="descTag">content</span>=<span class="geumiTag">"</span><span class="descGeumiTag">width=device-width, initial-scale=1</span><span class="geumiTag">"</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;title&gt;</span>Bouchettoy<span class="tag">&lt;/title&gt;</span>
+<span class="tag">&lt;link</span> <span class="descTag">rel</span>=<span class="geumiTag">"</span><span class="descGeumiTag">stylesheet</span><span class="geumiTag">"</span> <span class="descTag">href</span>=<span class="geumiTag">"</span><span class="descGeumiTag">https://marouane216.github.io/bouchettoy/bouchettoy.css</span><span class="geumiTag">"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;/head&gt;</span>
+
+<span class="tag">&lt;body&gt;</span>
+    <span class="tag">&lt;h1&gt;</span>Hello, world!<span class="tag">&lt;/h1&gt;</span>
+    <span class="tag">&lt;script</span> <span class="descTag">src</span>=<span class="geumiTag">"</span><span class="descGeumiTag">https://marouane216.github.io/bouchettoy/bouchettoy.js</span><span class="geumiTag">"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;/body&gt;</span></code>
+
+<span class="tag">&lt;/html&gt;</span></pre>
+                </main>
+            </li>
+        </ol>
+    </div>
     <script src="bouchettoy/main.js"></script>
 </body>
+
 </html>

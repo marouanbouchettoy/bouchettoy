@@ -1,11 +1,96 @@
 html,
 body {
 	margin: 0;
-	height: 100vh;
+	height: 90vh;
 	width: 100vw;
-	overflow: hidden;
+}
+.tag{
+	color: #975200;
+}
+.descTag{
+	color: #ff0000;
+}
+.geumiTag{
+	color: #d70101;
+}
+.descGeumiTag{
+	color: #0000ff;
+}
+p{
+	color: #333333ad;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+pre{
+	margin:1em 1rem;
+}
+pre[class*="language-"] {
+  position: relative;
+  overflow: auto;
+
+  /* make space  */
+  margin: 5px 0;
+  padding: 1.75rem 0 1.75rem 1rem;
+  border-radius: 10px;
 }
 
+pre[class*="language-"] button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  font-size: 0.9rem;
+  padding: 0.15rem;
+  background-color: #828282;
+
+  border: ridge 1px #7b7b7c;
+  border-radius: 5px;
+  text-shadow: #c4c4c4 0 0 2px;
+}
+pre button{
+	position: absolute;
+	top: 313px;
+	right: 379px;
+}
+pre button:hover{
+	cursor: pointer;
+}
+
+pre[class*="language-"] button:hover {
+  cursor: pointer;
+  background-color: #bcbabb;
+}
+
+main {
+  display: grid;
+  max-width: 653px;
+  margin: 20px auto;
+  background-color: aliceblue;
+}
+.metaViewport{
+	color: aqua;
+}
+.form{
+	width: 50%;
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 26px 25%;
+}
+.container{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin: auto;
+	width: 90%;
+	height: 80px;
+	border-radius: 0 0 15px 15px;
+	padding: 0 25px;
+}
 body {
 	font-family: "Roboto", sans-serif;
 	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -87,7 +172,7 @@ h1 {
 .H1HOME{
 	font-size: 48px;
 }
-h2{
+.H2HOME{
 	padding: 0 100px;
 	color: #f3eb45;
 }
