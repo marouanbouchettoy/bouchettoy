@@ -34,12 +34,3 @@ async function copyCode(block, button) {
         button.innerText = copyButtonLabel;
     }, 700);
 }
-function moveToCarte(el) {
-    var clone = el.cloneNode(true);
-    total += parseFloat(el.children[3].textContent);
-    clone.id = clone.id + "" + iddd;
-    clone.children[5].id = clone.children[5].id + "" + iddd;
-    iddd++;
-    document.getElementById("order").appendChild(clone);
-    document.getElementById("total-price").textContent = total;
-}
