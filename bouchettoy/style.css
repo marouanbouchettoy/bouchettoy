@@ -50,11 +50,7 @@ pre[class*="language-"] button {
   border-radius: 5px;
   text-shadow: #c4c4c4 0 0 2px;
 }
-pre button{
-	position: absolute;
-	top: 313px;
-	right: 379px;
-}
+
 pre button:hover{
 	cursor: pointer;
 }
@@ -69,6 +65,7 @@ main {
   max-width: 653px;
   margin: 20px auto;
   background-color: aliceblue;
+  border-radius: 15px;
 }
 .metaViewport{
 	color: aqua;

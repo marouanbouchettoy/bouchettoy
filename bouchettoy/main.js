@@ -8,7 +8,7 @@ blocks.forEach((block) => {
     // only add button if browser supports Clipboard API
     if (navigator.clipboard) {
         let button = document.createElement("button");
-        button.idName += "btn1";
+        button.style.marginLeft = "78%";
 
         button.innerText = copyButtonLabel;
         block.appendChild(button);
@@ -18,7 +18,7 @@ blocks.forEach((block) => {
         });
 
     }
-    
+
 });
 
 async function copyCode(block, button) {
